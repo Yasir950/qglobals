@@ -230,8 +230,9 @@ button {
   background-color: #f8f9fa!important;
 }
 .header_left{
-    width: 50%;
+    width: 100%;
     float: left;
+   
 }
 .header_right{
     width: 50%;
@@ -264,6 +265,9 @@ button {
     width: 100%;
     float: left;
     padding-left: 100px;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+  background-size: 100%;
 }
 .banner_taital {
     width: 100%;
@@ -290,13 +294,14 @@ button {
 .more_bt {
     width: 170px;
     float: left;
+    margin: 10px;
 }
 
 .more_bt a {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #000;
+    color: #fff;
     border: 2px solid #ff5a58;
     text-align: center;
     padding: 10px 0px;
@@ -305,8 +310,9 @@ button {
     font-weight: bold;
 }
 .more_bt a:hover {
-    color: #000;
+    color: #fff;
     border: 2px solid #ff5a58;
+    background-color: #ff5a58;
 }
 .contact_bt {
     width: 170px;
@@ -405,7 +411,7 @@ button {
     width: 100%;
     float: left;
     font-size: 34px;
-    color: #060606;
+    color: #000;
     padding-top: 10px;
     text-transform: uppercase;
     font-weight: bold;
@@ -478,13 +484,16 @@ button {
     margin-left: 0px;
 }
 .p_text{
-    width: 100%;
+    width: 96%;
     float: left;
     font-size: 15px;
     color: #ffffff;
     text-align: center;
     margin-left: 0px;
     margin: 5px;
+}
+.p_text a:hover{
+    border-bottom:2px solid #441cb1;
 }
 .moremore_bt_1 {
     width: 170px;
@@ -708,6 +717,15 @@ button {
 .round_1{
     padding-top: 50px;
 }
+.img_1{
+    width: 100%;
+    float: left;
+}
+.h1_txt{
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+}
 .round_2{
     padding-top: 30px;
 }
@@ -715,6 +733,16 @@ button {
     width: 79%;
     margin: 0 auto;
     font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    padding-top: 30px;
+}
+.banner_dummy_text{
+    width: 79%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
     color: #000;
     text-align: center;
     padding-top: 30px;
@@ -723,13 +751,23 @@ button {
     background-color: #1b5a8d;
 }
 .carousel-indicators li {
-    width: 60px;
-    height: 15px;
-    background-color: #ff5a58;
-    border-radius: 4px;
+    width: 10px;
+    height: 10px;
+    border-color: #000;
+    border: 1px solid #000;
+    border-radius: 100%;
     bottom: -80px;
 }
-
+.carousel-indicator .active {
+    background-color: #1b5a8d;
+}
+.carousel-indicator li {
+    width: 10px;
+    height: 15px;
+    background-color: #ff5a58;
+    border-radius: 50px;
+    bottom: -80px;
+}
 .contact_section {
     width: 100%;
     float: left;
