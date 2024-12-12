@@ -375,10 +375,10 @@ ul.link li {
     padding: 8px 12px;
     padding-bottom: 0px; 
 }
-.header_left { width: 100%; }
+.header_left { width: 100%;padding: 0px 0px; }
 .logo { width: 10%; }
 .banner_taital { font-size: 30px; padding-top: 30px; }
-.banner_main { padding-left: 15px; }
+.banner_main { padding-left: 15px; padding: 0px; }
 .btn_main { padding-top: 0px; }
 .contact_bt { width: 140px; margin-left: 10px; }
 .more_bt { width: 140px;}

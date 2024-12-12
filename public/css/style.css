@@ -232,7 +232,7 @@ button {
 .header_left{
     width: 100%;
     float: left;
-   
+   padding: 0px 100px;
 }
 .header_right{
     width: 50%;
@@ -268,6 +268,7 @@ button {
     background-image: url('../images/banner.jpg');
     background-repeat: no-repeat;
   background-size: 100%;
+  padding: 30px;
 }
 .banner_taital {
     width: 100%;
@@ -278,7 +279,13 @@ button {
     text-transform: uppercase;
     font-weight: bold;
 }
-
+.header_btn{ padding: 4px 0px;width: 140px;font-size:14px;
+    float: left;
+    border: 2px solid #ff5a58;
+    text-align: center;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;}
 .banner_text {
     width: 90%;
     float: left;
@@ -659,9 +666,15 @@ button {
     float: left;
 }
 .image_7{
+    padding: 10px;
     width: 100%;
     float: left;
     text-align: center;
+    border-radius: 50%;
+    height: 325px;
+    width: 325px;
+    border: 3px solid #306A98;
+
 }
 .readable_text{
     width: 100%;
@@ -690,6 +703,10 @@ button {
     margin: 0px;
     padding: 0px;
     display: inline-block;
+}
+.image_11{
+border-radius: 20px;
+
 }
 .social_icon li{
     float: left;
